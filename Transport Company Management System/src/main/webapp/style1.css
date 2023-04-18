@@ -1,0 +1,31 @@
+table{
+	background-color:lightblue;
+	border-collapse: collapse;
+}
+
+th{
+	color:brown;
+	text-align:center;
+}
+
+tr{
+	color:white;
+	text-align:center;
+}
+
+*{
+	background-color: black;
+	text-align:center;
+}
+
+th:hover{
+	color:white;
+	cursor:pointer;
+	color:blue;
+}
+
+tr:hover{
+	color:orange;
+	cursor:pointer;
+	background-color: green;
+}

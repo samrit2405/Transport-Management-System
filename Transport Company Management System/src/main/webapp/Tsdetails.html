@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+
+<style>
+
+body{
+background-color:black;
+}
+
+#box{
+ background-color:rgba(255, 255, 224, 0.9);
+                    padding: 50px;
+                    margin-left: 465px;
+                    margin-top: 40px;
+                    display: inline-block;
+                    border-radius: 10px;
+                    width: 230px;
+                    height: 330px;
+                    padding-top:5px;
+                
+  }
+
+#btn{
+      padding:8px;
+      margin-left:50px;
+     background-color: brown;
+     height:30px;
+      }
+
+h1{
+background-color: brown;
+text-align:center;
+}
+
+#btn:hover{
+      cursor:pointer;
+      color:blue;
+      }
+
+
+</style>
+
+
+</head>
+<body>
+
+
+
+<form action="AddTransportData" method="post">
+
+<div id="box">
+
+<h1>Transport Details</h1>
+
+   <label>Vehicle-No :</label>
+   <input type="text" name="Vehicle_No"><br><br>
+   
+   <label>Shipping-Address:</label>
+   <input type="text" name="shipping_addr"><br><br>
+   
+   <label>Phone:</label>
+   <input type="text" name="Phone"><br><br>
+   
+    <label> Product:</label>
+   <input type="text" name="Product"><br><br>
+     
+  <input type="submit" value="Add" id="btn">
+   
+    <input type="reset" value="Reset" id="btn">
+
+</div>
+
+</form> 
+
+</body>
+</html>

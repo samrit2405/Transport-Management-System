@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>About Contents</title>
+
+ <style>
+
+      body{
+background-image: url(tranport1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+      }
+      
+      #btn{
+      float:left;
+      padding:5px;
+      margin-left:50px;
+     background-color: brown;
+      }
+      
+      #btn:hover{
+      cursor:pointer;
+      color:white;
+      }
+    </style>
+
+</head>
+
+<body>
+
+ 
+    <div class="abt">
+      
+      <a href="Driver_details.html"><button id="btn" type="submit">Add Driver Details</button></a>
+       
+  <form action="DriverDataController" method="get">
+  <button id="btn" type="submit">View Driver Details</button>
+  </form>
+  
+   
+     <a href="Tsdetails.html"><button id="btn" type="submit" class="btnn">Add Transport Details</button></a>
+   
+   <form action="TransportDataController" method="get">
+   <button id="btn" type="submit">View Transport Details</button>
+  </form>
+  
+     <a href="login.html"> <button id="btn" type="submit" class="btnn">LogOut</button></a>
+      
+     </div>
+  
+
+</body>
+</html>

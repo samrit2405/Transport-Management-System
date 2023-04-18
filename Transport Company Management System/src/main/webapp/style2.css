@@ -1,0 +1,123 @@
+/*table{
+	background-color:lightblue;
+	border-collapse: collapse;
+}
+
+th{
+	color:brown;
+	text-align:center;
+}
+
+tr{
+	color:white;
+	text-align:center;
+}
+
+*{
+	background-color: lightblue;
+	text-align:center;
+}
+
+th:hover{
+	color:white;
+	cursor:pointer;
+	color:blue;
+}
+
+tr:hover{
+	color:orange;
+	cursor:pointer;
+	background-color: green;
+}
+
+form{
+	text-align: center;
+	color:white;
+}
+
+#btn{
+      padding:8px;
+      margin-left:50px;
+     background-color: brown;
+     height:30px;
+      }   */
+      
+      .cs{
+
+    width: 420px;
+    height: 665px;
+    background:#fff;
+    color: rgb(231, 139, 139);
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+}
+
+.cs input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.cs input[type="text"]{
+border: none;
+border-bottom: 20px;
+background: transparent;
+outline: none;
+height: 40px;
+color: #170e03;
+font-size: 16px;
+border-bottom: 1px solid black;
+}
+.cs input[type="button"]{
+border: none;
+
+background: blue;
+outline: none;
+
+color: #fff;
+
+
+}
+.cs input[type="button"]:hover{
+cursor: pointer;
+background: #5fb5ea;
+}
+
+.cs p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    padding-top:0px;
+    text-align: center;
+    font-size: 24px;
+    color:brown;
+}
+.cs input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.cs input[type="submit"]:hover{
+cursor: pointer;
+background: #5fb5ea;
+}
+
+body{
+margin: 0;
+padding: 0;
+background-position: center;
+font-family: sans-serif;
+background-color:black;
+opacity: 85%;
+}
